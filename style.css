@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: black;
+    min-height: 50px;
+}
+.container {
+    display: flex;
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+.nav-title {
+    color: white;
+    display: flex;
+}
+
+.nav-links  {
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    display: inline-flex;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+.active {
+    font-weight: bold;
+    color: white;
+}
+/* ^ Nav-title, nav-links, nav-links a, and active all the nav bar except the button
+/*/
+.btn {
+    background-color: turquoise;
+    border: black solid 2px;
+    color: white;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+/*/ ^ button in the navagation bar
+/*/
+main {
+    background-color: white;
+    min-height: 100px;
+    flex: 2;
+}
+aside {
+    background-color: white;
+    min-height: 150px;
+    flex: 1;
+}
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 1.5rem;
+}
+.card {
+    background-color: rgb(204, 252, 253);
+    min-height: 400px;
+}
+.banner {
+    background-color: cadetblue;
+    height: 80px;
+    min-height: 100%;
+    color: white;
+    font-size: larger;
+    border:  solid  2px rgb(21, 111, 114) ;
+}
+.jane {
+    border-radius: 50%;
+    border: cadetblue solid 8px;
+    width: 150px;
+    position: static;
+    margin-left: 20px;
+}
+.janem {
+color: rgb(61, 61, 61);
+justify-content: flex-start;
+margin-top: 5rem;
+margin-left: 20px;
+}
+.map {
+    width: 20px;
+    display: inline;
+    margin-top: 1.5rem;
+    margin-left: 20px;
+}
+.info {
+    margin-left: 20px;
+    padding: 5px;
+}
+.gear {
+    width: 20px;
+    filter:grayscale(100%);
+}
+.edit {
+    color: black;
+}
+.bannersml {
+    background-color: cadetblue;
+    height: 50px;
+    min-height: 100%;
+    color: white;
+    font-size: 30px;
+    border:  solid  2px rgb(21, 111, 114) ;
+}
+.education {
+    background-color: rgb(204, 252, 253);
+    min-height: 300px;
+}
+.edup { 
+    margin-top: 20px;
+    word-spacing: 20%;
+
+}
+p {
+    color: rgb(31, 31, 31);
+    word-spacing: 10%;
+}
+.requests {
+    background-color: rgb(204, 252, 253);
+    min-height: 200px;
+    justify-content: space-evenly;
+}
+.connections {
+    background-color: rgb(204, 252, 253);
+    min-height: 400px;
+}
+.mb {
+    margin-bottom: 1.5rem;
+}
+/*/ ^ adding a margin bottom
+/*/
+.mates {
+    border-radius: 50%;
+    width: 60px;
+    list-style: none;
+}
+.accept {
+    width: 40px;
+}
+.confirm {
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.inline {
+    position: fixed;
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+
